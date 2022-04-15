@@ -82,14 +82,17 @@ main{
 }
 .fondo2{
     grid-area: fondo2;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
 }
 
 .fondo3{
     grid-area: fondo3;
 }
+
+.fondo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .main_img{
     width: 25rem;
     height: 25rem;
@@ -121,15 +124,19 @@ main{
     margin-left: 7rem;
 }
 
+
 .burger_info h3{
     display: flex;
     justify-content: center;
 }
 .burger_info p{
-    text-align: justify;
+    display: flex;
+    justify-content: center;
 }
 .main_menu .contenedor_hamburguesas{
-    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 4rem;
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     grid-template-rows: repeat(3, 3fr);
@@ -138,6 +145,10 @@ main{
     "burger4 burger5 burger6"
     "burger7 burger8 burger9"
     ;
+}
+
+.burger:hover{
+    transform: scale(1.2);
 }
 /*footer*/
 .img_footer{
