@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*subtitulos*/
+.subtitulo{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    background-color: rgb(221, 197, 87);
+    color: black;
+    font-weight: bold;
+}
+
+/*header*/
+header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "nav1 imgcrb nav2"
+    ;
+    justify-items: center;
+    align-items: center;
+}
+.nav1{
+    grid-area: nav1;
+}
+.nav2{
+    grid-area: nav2;
+}
+.imgcrb{
+    grid-area: imgcrb;
+    width: 7rem;
+    height: 7rem;
+}
+
+.nav1 ul li{
+    list-style: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+}
+
+.nav2 ul li{
+    list-style: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+}
+/*body*/
+
+body{
+    background-color: black;
+    color: white;
+}
+/*main*/
+main{
+    grid-area: main;
+}
+.main_index{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "fondo1 fondo2 fondo3"
+    "article article article";
+}
+.fondo1{
+    grid-area: fondo1;
+}
+.fondo2{
+    grid-area: fondo2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.fondo3{
+    grid-area: fondo3;
+}
+.main_img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 3rem;
+}
+.pindex{
+    width: 100%;
+    height: 10%;
+    grid-area: article;
+}
+.pindex h3{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pindex p{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+/*menu*/
+
+.contenedor_hamburguesas img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 3rem;
+    margin-left: 7rem;
+}
+
+.burger_info h3{
+    display: flex;
+    justify-content: center;
+}
+.burger_info p{
+    text-align: justify;
+}
+.main_menu .contenedor_hamburguesas{
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(3, 3fr);
+    grid-template-areas: 
+    "burger1 burger2 burger3"
+    "burger4 burger5 burger6"
+    "burger7 burger8 burger9"
+    ;
+}
+/*footer*/
+.img_footer{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(221, 197, 87) ;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    bottom: 0;
+}
+
+footer section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ @media (max-width:480px){
+     .nav1 ul li{
+         display: block;
+         text-align: center;
+     }
+     .nav2 ul li{
+         display: block;
+         text-align: center;
+     }
+     header{
+         grid-template-columns: 1fr;
+         grid-template-rows: repeat(3, 1fr);
+         grid-template-areas: 
+         "nav1"
+         "imgcrb"
+         "nav2"
+         ;
+     }
+     .main_index{
+         grid-template-columns: 1fr;
+         grid-template-rows: repeat(4, 1fr);
+         grid-template-areas: 
+        "fondo1"
+        "fondo2"
+        "fondo3"
+        "article"
+        ;
+     }
+     .main_menu .contenedor_hamburguesas{
+         grid-template-columns: 1fr;
+         grid-template-rows: repeat(9, 1fr);
+         grid-template-areas: 
+         "burger1"
+         "burger2"
+         "burger3"
+         "burger4"
+         "burger5"
+         "burger6"
+         "burger7"
+         "burger8"
+         "burger9"
+         ;
+    }
+ }
