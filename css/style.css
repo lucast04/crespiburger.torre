@@ -21,7 +21,19 @@ h2{
 }
 
 /*header*/
-header{
+.container-fluid {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    text-decoration: underline;
+}
+
+
+/*header{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -58,7 +70,7 @@ header{
     padding: 1rem;
     margin: 1rem;
     display: inline-block;
-}
+}*/
 /*body*/
 
 body{
@@ -69,35 +81,6 @@ body{
 main{
     grid-area: main;
 }
-/*.main_index{
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: 
-    "fondo1 fondo2 fondo3"
-    "article article article";
-}
-.fondo1{
-    grid-area: fondo1;
-}
-.fondo2{
-    grid-area: fondo2;
-}
-
-.fondo3{
-    grid-area: fondo3;
-}
-
-.fondo{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.main_img{
-    width: 25rem;
-    height: 25rem;
-    border-radius: 3rem;
-}*/
 
 .carousel-item img{
     width: 100%;
