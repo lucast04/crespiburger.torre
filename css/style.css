@@ -75,13 +75,18 @@ main{
 }
 /*menu*/
 
-.contenedor_hamburguesas img{
+.imgmenu{
     width: 10rem;
     height: 10rem;
     border-radius: 3rem;
-    margin-left: 7rem;
+}
+.col h3{
+    text-align: center;
 }
 
+.col p{
+    text-align: justify;
+}
 
 .burger_info h3{
     display: flex;
