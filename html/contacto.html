@@ -48,31 +48,46 @@
     <main>
         <h2 class="subtitulo">Contacto</h2>
         <section>
-            <article>
-                <h3>donde estamos</h3>
+            <article class="ubicacion">
+                <h3>NUESTRA UBICACION</h3>
                 <div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2758.795169265591!2d-58.47402237305338!3d-34.68553071964307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1647720965407!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div>
+                    <p>Nos encontramos en el barrio de Villa Lugano, CABA.</p>
+                    <p>Aca crecimos, nos criamos y pasamos los mejores momentos de nuestras vidas</p>
+                    <p>Por estos motivos y muchos mas decidimos emprender en nuestro querido barrio</p>
+                    <p>Los esperamos!</p>
                 </div>
             </article>
         </section>
     <!--main-->
     </main>
-    <form>
-        <input type="text"  placeholder="Ingrese su nombre">
-        <hr>
-        <input type="text" placeholder="Ingrese su e-mail">
-        <hr>
-        <input type="number" placeholder="Ingrese su telefono">
-        <hr>
-        <H4>Consulta</H4>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <br>
-        <input class="buttonform" type="submit">
-        <input class="buttonform" type="reset">
+    <form class="formcontacto">
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">NOMBRE</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="NOMBRE">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">E-MAIL</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="E-MAIL">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">TELEFONO</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="TELEFONO">
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">DEJENOS SU CONSULTA AQUI</textarea>
+            <label for="floatingTextarea2">Comments</label>
+          </div>
+          <div class="button">
+              <input type="button" value="ENVIAR">
+          </div>
     </form>
 
+
     <!--INICIO DE FOOTER-->
-    <div class="container fixed-bottom">
+    <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <div class="col-md-4 d-flex align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">

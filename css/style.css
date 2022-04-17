@@ -36,9 +36,7 @@ body{
     color: white;
 }
 /*main*/
-main{
-    grid-area: main;
-}
+
 
 .carousel-item img{
     width: 100%;
@@ -70,6 +68,8 @@ main{
     font-weight: bold;
     color: goldenrod;
 }
+
+
 .texto_inicio{
     margin-top: 2rem;
 }
@@ -87,49 +87,29 @@ main{
 .col p{
     text-align: justify;
 }
+.ubicacion h3{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.ubicacion p{
+    margin-top: 3rem;
+    text-align: center;
+    align-items: center;
+}
+.ubicacion iframe{
+    border-radius: 1rem;
+}
 
-.burger_info h3{
-    display: flex;
-    justify-content: center;
+.button {
+    text-align: center;
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
 }
-.burger_info p{
-    display: flex;
-    justify-content: center;
-}
-.main_menu .contenedor_hamburguesas{
+
+.formcontacto {
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    gap: 4rem;
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    grid-template-rows: repeat(3, 3fr);
-    grid-template-areas: 
-    "burger1 burger2 burger3"
-    "burger4 burger5 burger6"
-    "burger7 burger8 burger9"
-    ;
 }
 
-.burger:hover{
-    transform: scale(1.2);
-}
-
-
- @media (max-width:480px){
-
-     .main_menu .contenedor_hamburguesas{
-         grid-template-columns: 1fr;
-         grid-template-rows: repeat(9, 1fr);
-         grid-template-areas: 
-         "burger1"
-         "burger2"
-         "burger3"
-         "burger4"
-         "burger5"
-         "burger6"
-         "burger7"
-         "burger8"
-         "burger9"
-         ;
-    }
- }
