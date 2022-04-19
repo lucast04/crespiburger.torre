@@ -37,6 +37,16 @@ body{
 }
 /*main*/
 
+ul li a{
+    text-transform: uppercase;
+}
+
+.navbar-text{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: goldenrod;
+}
 
 .carousel-item img{
     width: 100%;
@@ -50,14 +60,18 @@ body{
     margin-bottom: 2rem;
 }
 
+.maps-ubicacion{
+    display: flex;
+    justify-content: center;
+}
+
 .videonosotros iframe {
     border: 1px solid goldenrod;
 }
 .textonosotros {
-    margin-left: 15rem;
-    margin-right: 15rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .textonosotros h3 {
