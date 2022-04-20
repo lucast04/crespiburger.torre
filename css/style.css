@@ -41,6 +41,12 @@ ul li a{
     text-transform: uppercase;
 }
 
+ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
 img{
     object-fit: cover;
 }
