@@ -41,6 +41,10 @@ ul li a{
     text-transform: uppercase;
 }
 
+img{
+    object-fit: cover;
+}
+
 .navbar-text{
     text-transform: uppercase;
     font-weight: bold;
