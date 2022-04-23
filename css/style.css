@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*subtitulos*/
+
 .subtitulo{
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -20,7 +20,6 @@ h2{
     font-weight: bold;
 }
 
-/*header*/
 .container-fluid {
     background-color: black;
     font-family: 'Roboto', sans-serif;
@@ -28,24 +27,24 @@ h2{
     font-weight: bold;
 }
 
+.col{
+    padding: 1.5rem;
+}
 
-/*body*/
 
 body{
     background-color: black;
     color: white;
 }
-/*main*/
+
 
 ul li a{
     text-transform: uppercase;
 }
 
 ul li a:hover{
-    text-decoration: underline;
+    text-decoration: underline solid goldenrod;
 }
-
-
 
 img{
     object-fit: cover;
@@ -91,13 +90,14 @@ img{
     font-size: 2rem;
     font-weight: bold;
     color: goldenrod;
+    margin-top: 2rem;
 }
 
 
 .texto_inicio{
     margin-top: 2rem;
 }
-/*menu*/
+
 
 .imgmenu{
     width: 10rem;
@@ -111,11 +111,12 @@ img{
 .col p{
     text-align: justify;
 }
-.ubicacion h3{
+h3{
     font-family: 'Roboto', sans-serif;
-    margin-left: 1rem;
     font-weight: bold;
     text-align: center;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
 }
 .ubicacion p{
     margin-top: 3rem;
@@ -135,5 +136,11 @@ img{
 
 .formcontacto {
     margin-top: 2rem;
+    width: 50%;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
 }
 
