@@ -1,0 +1,19 @@
+.mi-carousel{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    .carousel-item{
+        img{
+            width: 100%;
+            height: 50rem;
+            object-fit: cover;
+        }
+    }
+}
+
+section{
+    .texto_inicio{
+        margin-top: 2rem;
+    }
+}
