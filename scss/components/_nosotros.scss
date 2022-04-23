@@ -6,7 +6,7 @@ article{
         margin-bottom: 2rem;
     }
     iframe{
-        border: 0.2rem solid goldenrod;
+        border: 0.2rem solid $dorado;
     }
     .textonosotros {
         margin-top: 2rem;
@@ -18,7 +18,7 @@ article{
             text-transform: uppercase;
             font-size: 2rem;
             font-weight: bold;
-            color: goldenrod;
+            color: $dorado;
             margin-top: 2rem;
         }
     }
