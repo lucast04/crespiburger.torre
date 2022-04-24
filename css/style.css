@@ -13,7 +13,7 @@
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
-  color: #e0a91f; }
+  color: goldenrod; }
 
 body {
   background-color: black;
@@ -38,7 +38,7 @@ section .ubicacion iframe {
     margin-top: 2rem;
     width: 50%; }
   .formulario .mi-input {
-    border: 0.2rem solid #e0a91f; }
+    border: 0.2rem solid goldenrod; }
   .formulario .button {
     display: flex;
     justify-content: center;
@@ -51,7 +51,7 @@ article .videonosotros {
   margin-bottom: 2rem; }
 
 article iframe {
-  border: 0.2rem solid #e0a91f; }
+  border: 0.2rem solid goldenrod; }
 
 article .textonosotros {
   margin-top: 2rem;
@@ -63,7 +63,7 @@ article .textonosotros {
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: bold;
-    color: #e0a91f;
+    color: goldenrod;
     margin-top: 2rem; }
 
 .mi-carousel {
@@ -84,7 +84,7 @@ main h2 {
   justify-content: center;
   text-transform: uppercase;
   font-size: 3rem;
-  background-color: #e0a91f;
+  background-color: goldenrod;
   color: black;
   font-weight: bold; }
 
