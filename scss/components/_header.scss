@@ -2,7 +2,7 @@
     a{
         text-transform: uppercase;
         &:hover{
-            text-decoration: underline 0.2rem solid goldenrod;
+            text-decoration: underline 0.2rem solid $dorado;
             transition: text-decoration 0.3s ease-in-out;
         }
     }
