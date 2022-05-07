@@ -2,3 +2,6 @@ node_modules
 
 seo.txt
 
+package-lock.json
+
+package.json
