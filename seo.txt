@@ -1,0 +1,8 @@
+TITULOS
+Todos llevan el nombre de la marca y agregado nombre de cada seccion
+
+DESCRIPCION
+"Delivery y take away de hamburguesas de calidad, encontranos en nuestro local en Lugano"
+
+KEYWORDS
+"comida, hamburguesas, delivery, take away, pedir"
