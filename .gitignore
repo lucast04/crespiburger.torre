@@ -1,5 +1,4 @@
-node_modules
-img
+node_modules/
 seo.txt
 package-lock.json
 package.son
